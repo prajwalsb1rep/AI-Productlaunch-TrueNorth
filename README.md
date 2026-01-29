@@ -4,56 +4,26 @@
 
 **[👉 CLICK HERE TO LAUNCH APP 👈](https://share.streamlit.io/YOUR_USERNAME/AI-Productlaunch-TrueNorth)**
 
----# 🚀 Prajwal Labs: True North Agent
+---
 
-**AI-Powered Market Intelligence & Product Strategy**
+##  Overview
+**True North** is a proprietary market intelligence system developed by **Prajwal Labs**. It is designed to give Product Managers an unfair advantage by autonomously researching competitors and tracking market signals in real-time.
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/YOUR_USERNAME/AI-Productlaunch-TrueNorth)
+Instead of generic searches, True North employs a **Multi-Agent Cognitive Architecture** that simulates a team of expert analysts:
 
-## 🌟 Overview
-**True North** is an agentic AI system designed for Product Managers and GTM Strategists. It autonomously researches competitors, analyzes market sentiment, and tracks launch metrics using a multi-agent architecture.
+### 🤖 The Agent Squad
+* **Strategy Agent:** Deconstructs competitor positioning, uncovers feature gaps, and analyzes official roadmaps.
+* **Sentiment Agent:** Filters out marketing noise to find raw, unfiltered user feedback on platforms like Reddit, G2, and Capterra.
+* **Metrics Agent:** Hunts for elusive financial signals, pricing models, and user growth statistics that are often hidden.
 
-Instead of generic searches, it uses specialized "Agent Personas" to hunt for specific signals:
-* **Strategy Agent:** Deconstructs positioning and feature gaps.
-* **Sentiment Agent:** Scans Reddit, G2, and Capterra for unfiltered user feedback.
-* **Metrics Agent:** Hunts for hard revenue, user growth, and pricing data.
+## 🛠️ Technology
+This system is built on a custom agentic workflow optimized for deep research:
 
-## 🛠️ Tech Stack
-* **Framework:** [Agno (formerly Phidata)](https://github.com/agno-agi/agno)
-* **UI:** Streamlit
-* **Search Engine:** DuckDuckGo (Lite Backend for unblockable access)
-* **Scraper:** Crawl4AI (Headless Chromium)
-* **LLM:** Groq (Llama 3.3 70B)
-
-## 🚀 How to Run Locally
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/AI-Productlaunch-TrueNorth.git](https://github.com/YOUR_USERNAME/AI-Productlaunch-TrueNorth.git)
-    cd AI-Productlaunch-TrueNorth
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    pip install -r requirements.txt
-    playwright install chromium
-    ```
-
-3.  **Set up your API Key:**
-    * Create a folder named `.streamlit`
-    * Create a file `.streamlit/secrets.toml`
-    * Add your key: `GROQ_API_KEY = "gsk_..."`
-
-4.  **Run the App:**
-    ```bash
-    streamlit run app.py
-    ```
-
-## ☁️ Deployment (Streamlit Cloud)
-This app is optimized for Streamlit Cloud.
-1.  Fork this repo.
-2.  Connect to Streamlit Cloud.
-3.  **IMPORTANT:** Add your `GROQ_API_KEY` in the App Secrets settings.
+* **Core Engine:** Custom Python Agentic Architecture
+* **Interface:** Streamlit Enterprise UI
+* **Search Intelligence:** Deep Web Search (Lite Backend)
+* **Data Extraction:** Headless Chromium Scraper
+* **Cognitive Model:** Llama 3.3 70B (via Groq Inference)
 
 ---
-*Built with ❤️ by Prajwal Labs*
+*© 2026 Prajwal Labs.
