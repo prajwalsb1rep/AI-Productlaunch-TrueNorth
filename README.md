@@ -1,5 +1,11 @@
 # 🚀 Prajwal Labs: True North Agent
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/YOUR_USERNAME/AI-Productlaunch-TrueNorth)
+
+**[👉 CLICK HERE TO LAUNCH APP 👈](https://share.streamlit.io/YOUR_USERNAME/AI-Productlaunch-TrueNorth)**
+
+---# 🚀 Prajwal Labs: True North Agent
+
 **AI-Powered Market Intelligence & Product Strategy**
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/YOUR_USERNAME/AI-Productlaunch-TrueNorth)
