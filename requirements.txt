@@ -1,0 +1,6 @@
+streamlit
+duckduckgo-search
+crawl4ai
+agno
+nest_asyncio
+openai
