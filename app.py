@@ -1,6 +1,22 @@
+import os
+import subprocess
+import sys
+
+# --- MAGICAL FIX FOR CLOUD DEPLOYMENT ---
+# This forces the server to download the specific browser Ram needs
+try:
+    print("🔧 Installing Playwright Browsers...")
+    subprocess.run(["playwright", "install", "chromium"], check=True)
+    print("✅ Playwright Browsers Installed.")
+except Exception as e:
+    print(f"⚠️ Could not install browsers: {e}")
+
 import asyncio
+# CRITICAL FIX: Prevent Mac/Linux Crash
 asyncio.set_event_loop_policy(asyncio.DefaultEventLoopPolicy())
+
 import streamlit as st
+# Now we import the backend (after installing the browser)
 from backend import get_knowledge_base, launch_analyst, sentiment_analyst, metrics_analyst, expand_competitor_report
 
 st.set_page_config(page_title="Prajwal Labs | True North", layout="wide", page_icon="🚀")
